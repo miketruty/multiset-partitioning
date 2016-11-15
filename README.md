@@ -1,11 +1,14 @@
 # multiset-partitioning
-Simple multiset partitionin in Python
+Simple multiset partitioning implementation in Python.
+This is written for clarity of READING.  It has not been
+tested with very large sets.
 
-Reference: https://en.wikipedia.org/wiki/Partition_problem
+Run with --help for arguments.
 
-Try running with --help for arguments.
+*Reference*
+The greedy algorithm in https://en.wikipedia.org/wiki/Partition_problem
 
-Examples:
+*Examples*
 
 ```
 ~/github/multiset-partitioning$ ./multiset_partition.py -s 3
